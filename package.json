@@ -4,7 +4,9 @@
   "description": "React based data table/grid component",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "wp": "webpack --progress --colors",
+    "wp:w": "webpack --progress --colors --watch",
+    "wb:simple": "webpack src/entry.js workbench/bundle.js"
   },
   "repository": {
     "type": "git",
