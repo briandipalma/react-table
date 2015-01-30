@@ -6,6 +6,7 @@
   "scripts": {
     "wp": "webpack --progress --colors",
     "wp:w": "webpack --progress --colors --watch",
+    "wds": "webpack-dev-server --progress --colors",
     "wb:simple": "webpack src/entry.js workbench/bundle.js"
   },
   "repository": {
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/briandipalma/react-table",
   "devDependencies": {
-    "webpack": "^1.5.3"
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
   }
 }
