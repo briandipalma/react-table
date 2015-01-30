@@ -1,0 +1,25 @@
+{
+  "name": "react-table",
+  "version": "1.0.0",
+  "description": "React based data table/grid component",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandipalma/react-table.git"
+  },
+  "keywords": [
+    "React",
+    "component",
+    "grid",
+    "table"
+  ],
+  "author": "Brian Di Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandipalma/react-table/issues"
+  },
+  "homepage": "https://github.com/briandipalma/react-table"
+}
