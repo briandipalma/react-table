@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/briandipalma/react-table/issues"
   },
-  "homepage": "https://github.com/briandipalma/react-table"
+  "homepage": "https://github.com/briandipalma/react-table",
+  "devDependencies": {
+    "webpack": "^1.5.3"
+  }
 }
