@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/briandipalma/react-table",
   "devDependencies": {
+    "6to5-core": "^3.2.1",
+    "6to5-loader": "^3.0.0",
     "webpack": "^1.5.3",
     "webpack-dev-server": "^1.7.0"
   }
