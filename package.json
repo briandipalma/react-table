@@ -4,6 +4,7 @@
   "description": "React based data table/grid component",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "wp": "webpack --progress --colors",
     "wp:w": "webpack --progress --colors --watch",
     "wds": "webpack-dev-server --progress --colors",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "6to5-core": "^3.2.1",
     "6to5-loader": "^3.0.0",
+    "eslint": "^0.13.0",
     "webpack": "^1.5.3",
     "webpack-dev-server": "^1.7.0"
   }
