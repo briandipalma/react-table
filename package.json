@@ -32,5 +32,8 @@
     "eslint": "^0.13.0",
     "webpack": "^1.5.3",
     "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "6to5-runtime": "^3.3.1"
   }
 }
