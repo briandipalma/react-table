@@ -7,8 +7,10 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	module: {
-		loaders: [
-			{test: /\.js$/, exclude: /node_modules/, loader: '6to5-loader'}
-		]
+		loaders: [{
+			test: /\.js$/,
+			exclude: /node_modules/,
+			loader: '6to5-loader?optional=selfContained'
+		}]
 	}
 };
