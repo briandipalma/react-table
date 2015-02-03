@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "start": "npm run wds",
     "wp": "webpack --progress --colors",
     "wp:w": "webpack --progress --colors --watch",
     "wds": "webpack-dev-server --progress --colors",
