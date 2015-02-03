@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	entry: './src/entry.js',
+	entry: __dirname + '/src/entry.js',
 	output: {
-		path: '__build__',
+		path: __dirname + '/__build__',
 		filename: 'bundle.js'
 	},
 	module: {
