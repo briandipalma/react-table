@@ -1,9 +1,11 @@
 'use strict';
 
+var path = require('path');
+
 module.exports = {
-	entry: __dirname + '/src/entry.js',
+	entry: path.join(__dirname, '/src/entry.js'),
 	output: {
-		path: __dirname + '/__build__',
+		path: path.join(__dirname, '/__build__'),
 		filename: 'bundle.js'
 	},
 	module: {
